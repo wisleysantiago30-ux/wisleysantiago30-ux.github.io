@@ -58,17 +58,17 @@ main {
     box-sizing: border-box;
 }
 
-/* Tamanho maior para todas as imagens do banner */
+
 .banner-images img {
     width: 33.33%;
-    height: 250px; /* Aumentado de 180px para 250px */
-    object-fit: cover; /* Preenche a caixa toda */
+    height: 250px; 
+    object-fit: cover; 
     border-radius: 4px;
 }
 
 .banner-images img:first-child {
-    object-fit: contain; /* Garante que o logo do Esch aparece por inteiro */
-    background-color: #ffffff; /* Fundo branco atrás do logo */
+    object-fit: contain; 
+    background-color: #ffffff; 
 }
 
 /* Galeria de Fotos (Multimédia) */
@@ -80,10 +80,10 @@ main {
 }
 
 .fotografias img {
-    width: 150px;           /* Largura das imagens conforme o enunciado */
-    height: 100px;          /* Altura para manter uniformidade */
-    object-fit: cover;      /* Evita que a imagem fique esticada */
-    border-radius: 20px;    /* Arredonda bastante os cantos igual ao enunciado */
+    width: 150px;           
+    height: 100px;          
+    object-fit: cover;     
+    border-radius: 20px;    
 }
 
 /* Estilização da Poesia com :nth-child */
